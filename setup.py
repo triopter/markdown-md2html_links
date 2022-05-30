@@ -10,7 +10,7 @@ setup(
     name='md2html_links',
     version='0.1.0',
     description='A Python-Markdown extension for replacing .md file '\
-               +'extensions with .html extensions in links.'
+               +'extensions with .html extensions in links.',
     author='ricmua',
     author_email='ricmua@whit.contact',
     url='',
