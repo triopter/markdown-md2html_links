@@ -1,5 +1,5 @@
 
-This is a [Python-Markdown](https://python-markdown.github.io/) extension for replacing .md file extensions with .html extensions in links. This is especially useful for maintaining Markdown collections file that contain relative internal links, but are still parser-agnostic. There is a related [GitHub issue](https://github.com/Python-Markdown/markdown/issues/1094).
+This is a [Python-Markdown](https://python-markdown.github.io/) extension for replacing .md file extensions with .html extensions in links. This is especially useful for maintaining Markdown collections that contain relative internal links, but are still parser-agnostic. There is a related [GitHub issue](https://github.com/Python-Markdown/markdown/issues/1094).
 
 ## Installation
 
