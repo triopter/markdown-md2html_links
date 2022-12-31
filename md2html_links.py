@@ -26,6 +26,10 @@ class CustomLinkInlineProcessor(LinkInlineProcessor):
         # Invoke the superclass method / default link processor.
         (href, title, index, handled) = super().getLink(*args, **kwargs)
         
+        # don't mess with external links; this is just for processing bundled directories
+        if href.startswith('http://') or href.startswith('https://'):
+            return (href, title, index, handled)
+        
         # Split the extension and replace it if it is .md.
         parts = os.path.splitext(href)
         ext = '.html' if (parts[1] == '.md') else parts[1]
